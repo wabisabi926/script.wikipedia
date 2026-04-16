@@ -35,18 +35,3 @@ msgstr "結果がありません"
 msgctxt "#32003"
 msgid "No results found for {}"
 msgstr "{}の結果が見つかりませんでした"
-
-#: /resources/lib/script.py
-msgctxt "#32004"
-msgid "Wikipedia"
-msgstr "ウィキペディア"
-
-#: /resources/lib/api.py
-msgctxt "#32005"
-msgid "Links"
-msgstr "リンク"
-
-#: /resources/lib/api.py
-msgctxt "#32006"
-msgid "Overview"
-msgstr "概要"
