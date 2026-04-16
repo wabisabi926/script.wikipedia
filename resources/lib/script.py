@@ -36,7 +36,7 @@ class Script():
     def router(self):
         if not self.params.get('wikipedia'):
             import xbmcgui
-            self.params['wikipedia'] = xbmcgui.Dialog()。input(heading='Wikipedia')
+            self.params['wikipedia'] = xbmcgui.Dialog().input(heading='Wikipedia')
         routes_available = set(self.routing_table.keys())
         params_given = set(self.params.keys())
         route_taken = set.intersection(routes_available, params_given).pop()
