@@ -146,7 +146,7 @@ class WikipediaAPI(RequestAPI):
         if not items:
             xbmcgui.Dialog().ok(get_localized(32002), get_localized(32003).format(f'{query}'))
             return
-        x = xbmcgui.Dialog().select(get_localized(32004), items)
+        x = xbmcgui.Dialog().select('Wikipedia', items)
         if x == -1:
             return
         return items[x]
@@ -186,7 +186,7 @@ class WikipediaAPI(RequestAPI):
 
     def get_all_sections(self, title):
         sections = self.get_sections(title)
-        sections = [{'line': get_localized(32006), 'index': '0', 'number': '0'}] + sections
+        sections = [{'line': 'Overview', 'index': '0', 'number': '0'}] + sections
         return sections
 
     def parse_links(self, data):
@@ -351,7 +351,7 @@ class WikipediaGUI(xbmcgui.WindowXMLDialog):
         if not links:
             return
         links = list(dict.fromkeys(links))
-        x = xbmcgui.Dialog().select(get_localized(32005), links)
+        x = xbmcgui.Dialog().select('Links', links)
         if x == -1:
             return
         self._history.append(self._title)
