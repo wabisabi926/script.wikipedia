@@ -19,7 +19,7 @@ msgstr ""
 #: /resources/lib/api.py
 msgctxt "#32001"
 msgid "Text from Wikipedia under CC BY-SA 3.0 license."
-msgstr "文字來自維基百科，採用CC BY-SA 3.0許可。"
+msgstr "文字來自維基百科，採用 CC BY-SA 3.0 許可。"
 
 #: /resources/lib/api.py
 msgctxt "#32000"
@@ -34,19 +34,4 @@ msgstr "無結果"
 #: /resources/lib/api.py
 msgctxt "#32003"
 msgid "No results found for {}"
-msgstr "未找到關於{}的結果"
-
-#: /resources/lib/script.py
-msgctxt "#32004"
-msgid "Wikipedia"
-msgstr "維基百科"
-
-#: /resources/lib/api.py
-msgctxt "#32005"
-msgid "Links"
-msgstr "連結"
-
-#: /resources/lib/api.py
-msgctxt "#32006"
-msgid "Overview"
-msgstr "概述"
+msgstr "未找到關於 {} 的結果"
