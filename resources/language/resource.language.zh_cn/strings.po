@@ -34,19 +34,4 @@ msgstr "无结果"
 #: /resources/lib/api.py
 msgctxt "#32003"
 msgid "No results found for {}"
-msgstr "未找到关于{}的结果"
-
-#: /resources/lib/script.py
-msgctxt "#32004"
-msgid "Wikipedia"
-msgstr "维基百科"
-
-#: /resources/lib/api.py
-msgctxt "#32005"
-msgid "Links"
-msgstr "链接"
-
-#: /resources/lib/api.py
-msgctxt "#32006"
-msgid "Overview"
-msgstr "概述"
+msgstr "未找到关于 {} 的结果"
